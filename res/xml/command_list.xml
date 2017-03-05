@@ -37,7 +37,7 @@
 
   <!-- Shell commands -->
   <command commandId="bash" commandPath="/system/bin/sh" commandArgs="" />
-  <command commandId="su" commandPath="/system/xbin/su" commandArgs="" />
+  <command commandId="su" commandPath="/sbin/su" commandArgs="" />
 
   <!-- Console info -->
   <command commandId="groups" commandPath="/system/bin/groups" commandArgs="" />

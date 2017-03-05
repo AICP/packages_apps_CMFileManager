@@ -70,7 +70,7 @@
     </string>
 
     <!-- The root command -->
-    <string name="root_command" translatable="false">/system/xbin/su</string>
+    <string name="root_command" translatable="false">/sbin/su</string>
 
     <!-- Optional shell commands in a pair=value format -->
     <string name="shell_optional_commands" translatable="false">

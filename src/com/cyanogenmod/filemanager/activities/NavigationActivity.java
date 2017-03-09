@@ -263,20 +263,7 @@ public class NavigationActivity extends Activity
                         }
 
                         // Access mode
-                        if (key.compareTo(FileManagerSettings.
-                                SETTINGS_ACCESS_MODE.getId()) == 0) {
-                            // Is it necessary to create or exit of the ChRooted?
-                            boolean chRooted =
-                                    FileManagerApplication.
-                                        getAccessMode().compareTo(AccessMode.SAFE) == 0;
-                            if (chRooted != NavigationActivity.this.mChRooted) {
-                                if (chRooted) {
-                                    createChRooted();
-                                } else {
-                                    exitChRooted();
-                                }
-                            }
-                        }
+                        createChRooted();
 
                         // Restricted access
                         if (key.compareTo(FileManagerSettings.
